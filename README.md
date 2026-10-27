@@ -168,7 +168,7 @@ entri PATH, fail host, dan kunci registri.
 .venv\Scripts\python -m PyInstaller --onedir --name dlm --console run_dlm.py
 # 2. compile installer (perlu Inno Setup 6):
 ISCC.exe installer\dlm.iss
-# hasil: installer\Output\dlm-setup-0.1.0.exe
+# hasil: installer\Output\dlm-setup-0.1.1.exe
 ```
 
 Pasang Inno Setup: `winget install JRSoftware.InnoSetup`. ISCC.exe biasanya di
