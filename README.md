@@ -1,5 +1,8 @@
 # dlm — download manager (ala IDM)
 
+[![build](https://github.com/workxart-hash/dlm-download-manager/actions/workflows/build.yml/badge.svg)](https://github.com/workxart-hash/dlm-download-manager/actions/workflows/build.yml)
+[![latest release](https://img.shields.io/github/v/release/workxart-hash/dlm-download-manager)](https://github.com/workxart-hash/dlm-download-manager/releases/latest)
+
 Clean-room, multi-segment download manager.
 **Fasa 1 (engine + CLI), Fasa 2 (GUI PySide6), Fasa 3 (extension Chrome + native messaging) — semua siap.**
 Tiada kod diambil atau di-decompile daripada mana-mana software sedia ada.
