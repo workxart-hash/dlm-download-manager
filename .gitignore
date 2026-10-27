@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+installer/Output/
+# scratch artifacts from interrupted downloads
+*.dlm.json
+*.dlmpart_*
+*.merging

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "dlm download capture",
+  "version": "0.1.0",
+  "description": "Capture browser downloads and hand them to the dlm download manager.",
+  "permissions": ["downloads", "nativeMessaging", "storage", "contextMenus"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "dlm download capture"
+  }
+}

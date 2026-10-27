@@ -1,0 +1,26 @@
+[project]
+name = "dlm"
+version = "0.1.0"
+description = "Clean-room, IDM-style multi-segment download manager"
+requires-python = ">=3.12"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+gui = ["PySide6-Essentials>=6.6"]
+
+[project.scripts]
+dlm = "dlm.cli:main"
+
+[project.gui-scripts]
+dlm-gui = "dlm.gui.app:run"
+
+[tool.setuptools.packages.find]
+include = ["dlm*"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
