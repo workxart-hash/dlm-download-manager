@@ -7,6 +7,16 @@ Clean-room, multi-segment download manager.
 **Fasa 1 (engine + CLI), Fasa 2 (GUI PySide6), Fasa 3 (extension Chrome + native messaging) — semua siap.**
 Tiada kod diambil atau di-decompile daripada mana-mana software sedia ada.
 
+## Muat turun
+
+Binari Windows terkini ada di **[halaman Releases](https://github.com/workxart-hash/dlm-download-manager/releases/latest)**.
+
+Versi semasa — **v0.1.1**:
+- [`dlm-setup-0.1.1.exe`](https://github.com/workxart-hash/dlm-download-manager/releases/download/v0.1.1/dlm-setup-0.1.1.exe) — installer (per-user)
+- [`dlm-0.1.1-win64.zip`](https://github.com/workxart-hash/dlm-download-manager/releases/download/v0.1.1/dlm-0.1.1-win64.zip) — portable (unzip, jalankan `dlm\dlm.exe`)
+
+> Binari **tidak ditandatangani** — Windows SmartScreen/Smart App Control mungkin beri amaran. Pilih "More info → Run anyway", atau bina dari sumber (lihat di bawah).
+
 ## Pasang (dev)
 
 ```bash
